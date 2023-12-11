@@ -22,3 +22,5 @@ Examples:
     When user calls "deletePlaceAPI" with "POST" HTTP request
 		Then the API call is success with status code 200
 		And the "status" response body is "OK"		
+		
+@Architech
