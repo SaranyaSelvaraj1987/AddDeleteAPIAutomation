@@ -11,9 +11,10 @@ Feature: Add Place API Validations Retry
 		And verify place_id created maps to "<name>" using "getPlaceAPI"
 
 Examples:
-		|name    |language     |address         |
+		|name    |language       |address          |
 		|Saran56 |Telugu56       |Bangalore56      |
 		|Leela56 |Tamil56        |Coimbatore56     |
+		|Bavith56|Telugu56       |Coimbatore56     |
 		
 @DeletePlace @Regression
   Scenario: DeletePlace
